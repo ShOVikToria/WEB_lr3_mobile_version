@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.block{
+    display: flex;
+}
+
+.one {
+    background-color: rgba(118, 212, 255, 0.8);
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    padding: 10px;
+    width: 100%;
+}
+
+.two {
+    background-color: rgba(91, 164, 247, 0.8);
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+}
+
+.three {
+    width: 100%;
+    flex-shrink: 0;
+    background-color: rgba(91, 164, 247, 0.8);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    flex-direction: row;
+}
+
+.four {
+    background-color: rgba(94, 103, 233, 0.9);
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.five {
+    background-color: rgb(184, 215, 253);
+    text-align: justify;
+    padding: 20px;
+    flex-grow: 1;
+    
+}
+
+.six {
+    background-color: rgba(118, 212, 255, 0.8);
+    align-items: center;
+    justify-content: right;
+    padding: 10px;
+    flex-direction: column;
+    height: 10%;
+}
+
+.menu {
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Comic;
+}
+
+.menu > ul > li {
+    list-style: none;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(3, 3, 163);
+}
+
+h1 {
+    font-size: 400%;
+    font-style: italic;
+    font-family: Comic;
+    color: rgb(24, 128, 247);
+    text-align: left;
+}
+
+h2 {
+    font-size: 250%;
+    font-style: italic;
+    font-family: Comic;
+    color: rgb(0, 39, 145);
+}
+
+p {
+    font-size: 200%;
+    font-style: italic;
+    font-family: Comic;
+    color: rgb(2, 25, 88);
+    text-align: justify;
+}
+
+.cooking {
+    max-height: 98%;
+    width: 32%;
+    border-radius: 20%;
+    padding: 5px;
+}
+
+.cat_chef {
+    margin-left: 2%;
+    margin-right: 1%;
+    max-height: 10vh;
+    border-radius: 50%;
+}
+
+.chef {
+    border-radius: 50%;
+    max-height: 10vh;
+}
